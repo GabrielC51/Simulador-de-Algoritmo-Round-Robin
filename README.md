@@ -8,23 +8,30 @@ Nesse projeto utilizamos a Linguagem Python para criar o simulador e uma interfa
 
 ## Resultados da simulação de teste
 
-Ao comparar com o simulador (Operating System Scheduling by
-LotusOregano)[https://lotusoregano.itch.io/operational-system-escalonator] obtemos os seguintes resultados:
+Ao comparar com o simulador [Operating System Scheduling by LotusOregano](https://lotusoregano.itch.io/operational-system-escalonator) obtemos os seguintes resultados:
 
 ### Ordem de execução:
 > Segue a mesma em ambos os simuladores
 
 Tempo resposta:
 - Simulador site:
-    > p1: 0
-    > p2: 2
-    > p3: 4
-    > média: 2
+  
+![Resultado do simulador do site](./images/resultado_simulador_site.png)
+    
+> p1: 0 \
+> p2: 2 \
+> p3: 4 \
+> média: 2
+
 - Nosso Simulador:
-    > p1: 0
-    > p2: 1
-    > p3: 2
-    > média: 1
+  
+![Resultado do nosso simulador](./images/resultado_simulador.png)
+    
+> p1: 0 \
+> p2: 1 \
+> p3: 2 \
+> média: 1
+
 - Causa da diferença:
-    > Simulador do site considera uma sobrecarga de 1 unidade de tempo para cada processo, o que não é implementado em nosso simulador.
+> Simulador do site considera uma sobrecarga de 1 unidade de tempo para cada processo, o que não é implementado em nosso simulador.
 
