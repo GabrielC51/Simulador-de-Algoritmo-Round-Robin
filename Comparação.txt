@@ -1,0 +1,15 @@
+Ordem de execução:
+    Segue a mesma em ambos os simuladores
+
+Tempo resposta:
+- Simulador site:
+    p1: 0
+    p2: 2
+    p3: 4
+    média: 2
+- Nosso Simulador:
+    p1: 0
+    p2: 1
+    p3: 2
+    média: 1
+- Causa da diferença: simulador do site considera uma sobrecarga de 1 unidade de tempo para cada processo
