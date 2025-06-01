@@ -6,6 +6,8 @@ Esse simulador tem como objetivo simular a execução do algoritmo Roud Robin, u
 
 Nesse projeto utilizamos a Linguagem Python para criar o simulador e uma interface gráfica para o mesmo atraves da biblioteca Tkinter.
 
+Integrantes do grupo: Gabriel Campos Monteiro, Letícia Carneiro Lemos, Matheus Victor Sales Santana e Tarcisio Assis
+
 ## Resultados da simulação de teste
 
 Ao comparar com o simulador [Operating System Scheduling by LotusOregano](https://lotusoregano.itch.io/operational-system-escalonator) obtemos os seguintes resultados:
@@ -13,7 +15,7 @@ Ao comparar com o simulador [Operating System Scheduling by LotusOregano](https:
 ### Ordem de execução:
 > Segue a mesma em ambos os simuladores
 
-Tempo resposta:
+### Tempo resposta:
 - Simulador site:
   
 ![Resultado do simulador do site](./images/resultado_simulador_site.png)
